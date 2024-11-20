@@ -47,7 +47,7 @@ html,body{
 #Center h1{
     margin: 4vw;
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 4vw;
 }
 
 
@@ -100,4 +100,75 @@ html,body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
+}
+
+@media (max-width:600px) {
+    #nav{
+        width: 100vw;
+        height: 6vh;
+        gap: 2.25vw;
+    }
+    #nav h3{
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+    #nav i{
+        font-weight: 500;
+        font-size: 1rem;
+        padding: 0.5%;
+        border-radius: 50%;
+    }
+
+    #Center{
+        width: 100vw;
+        padding-left: 1vw;
+        padding-top: 1vw;
+    }
+    #Center h1{
+        margin: 3vw;
+        font-weight: 600;
+        font-size: 4.25vh;
+        line-height: 5.5vh;
+    }
+
+    #Bottom{
+        padding: 4.75vw;
+        display: block;
+    }
+    #Bottom p{
+        font-weight: 500;
+        font-size: 2.5vh;
+        margin-bottom: 7.5%;
+    }
+
+    #right{
+        width: 90vw;
+        height: 5vh;
+        display: flex;
+        justify-content: space-between;
+        padding: 0%;
+    }
+    #right .elem{
+        padding:2%;
+        margin: 0%;
+        border: 2px solid white;
+        border-radius: 5%;
+        background-color: black;
+    }
+    #right .elem a{
+        font-weight: 500;
+        font-size: 0.9rem;
+        color: aliceblue;
+        margin: 0%;
+        text-decoration: none;
+    }
+    #Picture{
+        width: 100vw;
+        height: 45%;
+        background-image: url(https://images.unsplash.com/photo-1649433911119-7cf48b3e8f50?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+    }
+
 }
