@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+#nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+    justify-content: flex-end;
+}
+#nav h3{
+    color: white;
+    font-weight: 600;
+}
+#nav i{
+    color: black;
+    font-weight: 600;
+    font-size: larger;
+    padding: 0.75%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+#Center{
+    width: 100vw;
+    padding-left: 1.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 0%;
+}
+#Center h1{
+    margin: 4vw;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+
+#Bottom{
+    width: 100vw;
+    padding: 0 5.75vw;
+    display: flex;
+    justify-content: space-between;
+}
+#Bottom p{
+    font-weight: 500;
+    font-size: 2vh;
+    color:rgb(30, 30,30);
+}
+
+#right{
+    width: 10vw;
+}
+#right .elem{
+    padding: 0.75vw 0.25vh;
+    margin-bottom: 3%;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#right .elem a{
+    color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+#right .elem i{
+    color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    display: none;  
+}
+#right .elem:hover i {
+    display: inline; /* Visible on hover */
+}
+#right .elem:hover{
+    background-color: aliceblue;
+}
+
+
+#Picture{
+    width: 100vw;
+    height: 28vh;
+    background-image: url(https://images.unsplash.com/photo-1649433911119-7cf48b3e8f50?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
